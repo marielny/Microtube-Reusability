@@ -9,7 +9,7 @@ library(lme4)
 library(lmerTest)
 
 #set working directory
-setwd("C:/Users/antho/OneDrive - McGill University/picogreen case")
+setwd("C:/Users")
 
 ## Reading in the data
 mydata<-read.csv(file.choose(), header = T, stringsAsFactors = T)
